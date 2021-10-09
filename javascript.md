@@ -10,3 +10,9 @@ this has some disadvantages:
 - In strict mode, a repeated var declaration of the same identifier name in a scope is a SyntaxError.
 - If it appears with a repeated name with function declaration any where of the code, it's do-nothing operation. (function hoisting has more )
 - in loops var variables won't create a block scope and tends to bug.
+
+2. ### Alway initialize const variables, and don't reassign them. this will throw error
+- const variables can't be reassigned.
+- const variables can't be redeclared.
+- const variables can't be deleted.
+- const variables need to be initialized.
