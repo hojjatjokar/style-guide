@@ -16,3 +16,8 @@ this has some disadvantages:
 - const variables can't be redeclared.
 - const variables can't be deleted.
 - const variables need to be initialized.
+
+3. ### Always declare variables and functions before usage.
+- Variables and functions declared at the top of the scope are accessible throughout the scope.
+- hoisting can be lead to confusion.
+- hoisting for let and const variables is not supported. it will throw error because of TDZ.
