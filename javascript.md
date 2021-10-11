@@ -21,3 +21,7 @@ this has some disadvantages:
 - Variables and functions declared at the top of the scope are accessible throughout the scope.
 - hoisting can be lead to confusion.
 - hoisting for let and const variables is not supported. it will throw error because of TDZ.
+
+4. ### Don't use eval
+eval is a powerful function that can be used to execute arbitrary code.
+It can cost you performance and security. since it can modify the scope of the code.
