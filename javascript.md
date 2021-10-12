@@ -25,3 +25,8 @@ this has some disadvantages:
 4. ### Don't use eval
 eval is a powerful function that can be used to execute arbitrary code.
 It can cost you performance and security. since it can modify the scope of the code.
+
+5. ### Don't use implied eval
+Beside the eval itself there are a few other ways to pass string and have interpreted as it is code. 
+
+Using setTimeout and setInterval can accept a string as a parameter and run it as it is code.
