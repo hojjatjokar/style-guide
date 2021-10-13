@@ -30,3 +30,7 @@ It can cost you performance and security. since it can modify the scope of the c
 Beside the eval itself there are a few other ways to pass string and have interpreted as it is code. 
 
 Using setTimeout and setInterval can accept a string as a parameter and run it as it is code.
+
+6. ### Don't change the object shape 
+- Changing the object shape of an object can lead to poor performance and memory usage.
+- Always initialize object with the shape of it will eventually will end up with the same shape.
